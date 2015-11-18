@@ -1,0 +1,22 @@
+<template name="hubLogsLayout">
+    <div id="wrapper">
+    {{> header}}
+    {{> slogans}}
+    {{> environments}}
+    {{> hublogsFilterPanel}}
+    {{> yield}}
+    </div>
+    <div class="push"></div>
+    {{> footer}}
+</template>
+
+<template name="hubLogs">
+
+    {{> pagesNav}}
+    <div class="hublogsResultsContainer">
+    {{> pages}}
+    </div>
+    <div class="bottom-paginator-container">
+        {{> pagesNav}}
+    </div>
+</template>
