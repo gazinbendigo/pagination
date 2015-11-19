@@ -1,0 +1,104 @@
+<template name="hublogsFilterPanel">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="accordion" class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#filters">Filters</a>
+                        </h4>
+                    </div>
+                    <div id="filters" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <h3>Application Filters</h3>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 filter-input"><label for="start">Start:&nbsp;</label>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="number" placeholder="0" name="start" id="start"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 filter-input"><label for="size">Size:&nbsp;</label>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="number" value="200" name="size" id="size"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 filter-input"><label for="requestId">RequestId:&nbsp;</label>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="number" name="requestId" id="requestId"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 filter-input"><label for="serviceId">ServiceId:&nbsp;</label>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="number" name="serviceId" id="serviceId"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 filter-input"><label for="sourceName">SourceName:&nbsp;</label>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="text" name="sourceName" id="sourceName"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 filter-input"><label for="userId">UserId:&nbsp;</label>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="text" name="userId" id="userId"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 filter-input"><label for="severity">Severity:&nbsp;</label>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="text" name="severity" id="severity"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 filter-input"><label for="logCode">LogCode:&nbsp;</label>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="text" name="logCode" id="logCode"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 filter-input"><label for="latestDate">LatestDate:&nbsp;</label>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="date" name="latestDate" placeholder="dd/mm/yyy" id="latestDate"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 filter-input"><label for="requestMessage">Request Message:&nbsp;</label>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="text" name="requestMessage" id="requestMessage"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 filter-input"><label for="logMessage">Log Message:&nbsp;</label>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="text" name="logMessage" id="logMessage"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    &nbsp;
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 "><div class="checkbox"><label><input type="checkbox" name="errorsOnly">Errors Only</label></div></div>
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 "><div class="checkbox"><label><input type="checkbox" name="olbPing">Include OLB Ping</label></div></div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    &nbsp;
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h3>Front End Applications</h3><hr/>
+                                </div>
+                            </div>
+                            {{#each applications}}
+                                {{> applicationRow}}
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</template>

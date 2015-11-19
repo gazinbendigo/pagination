@@ -1,0 +1,130 @@
+h5 {
+  color: orange;
+}
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  background-color: #911d00;
+}
+/* Wrapper for page content to push down footer */
+#wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+}
+#footer {
+  background-color: #2B2724;
+  color: #9a906c;
+}
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.header-container {
+  margin-top: 2em;
+}
+.header-container .title {
+  letter-spacing: 1px;
+  font-size: rem-calc(56);
+  color: #f9ecba;
+}
+.filter-container {
+  margin-top: 1em;
+  margin-bottom: 1.8em;
+}
+.btn-primary {
+  -moz-box-shadow: 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow: 0px 1px 0px 0px #ffffff;
+  -o-box-shadow: 0px 1px 0px 0px #ffffff;
+  box-shadow: 0px 1px 0px 0px #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d6c6ba), color-stop(1, #ac9b5b));
+  background: -moz-linear-gradient(top, #d6c6ba 5%, #ac9b5b 100%);
+  background: -webkit-linear-gradient(top, #d6c6ba 5%, #ac9b5b 100%);
+  background: -o-linear-gradient(top, #d6c6ba 5%, #ac9b5b 100%);
+  background: -ms-linear-gradient(top, #d6c6ba 5%, #ac9b5b 100%);
+  background: linear-gradient(to bottom, #d6c6ba 5%, #ac9b5b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D6C6BA', endColorstr='#dfdfdf', GradientType=0);
+  background-color: #817853;
+  -webkit-border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #333;
+  display: inline-block;
+  cursor: pointer;
+  color: #222;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+}
+p {
+  font-family: 'Open Sans', tahoma, verdana, Arial;
+  font-weight: normal;
+  font-size: 0.82em;
+  line-height: 1.65em;
+  margin-bottom: 0;
+}
+h1 {
+  font-family: Oswald, 'Fjalla One', tahoma;
+  font-size: 1.8em;
+  margin-bottom: .5em;
+  font-weight: normal;
+  margin-top: 0;
+  line-height: 1.2em;
+  color: #f9ecba;
+  display: block;
+}
+h2 {
+  font-family: Oswald, 'Fjalla One', tahoma;
+}
+.title {
+  color: #000;
+}
+.filter {
+  margin-top: 0px;
+}
+.filter label {
+  margin-top: 0px;
+}
+.filter-input {
+  color: #656565;
+}
+.filter-input input {
+  width: 100%;
+}
+.filter-input label {
+  margin-top: 4%;
+}
+.searchButtonContainer {
+  margin-bottom: 2em;
+}

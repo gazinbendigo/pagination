@@ -1,0 +1,147 @@
+[
+  {"name": "Bob Smith", "gender": "M", "dob": "12/12/1960", "address": "111 Flinders Street, Melbourne, VIC 3000", "home_tel": "93128555", "work_tel": "9312111", "mob_num": "0401555777", "business_name": "Bob Co", "location": {"lon":144.96347145195,"lat":-37.8192613414694}, "last_visited_days": 30,
+    "finance": [
+      {"name": "Car Loan 1", "type": "car_loan", "principal": 50000, "rule": 5, "number_of_months": 12, "balance": 4000},
+      {"name": "Master Card 1", "type": "credit_card", "principal": 20000, "rule": 15, "number_of_months": 24, "balance": 3000},
+      {"name": "Saving Account 1", "type": "saving_account", "principal": 0, "rule": 2, "number_of_months": 60, "balance": 100000},
+      {"name": "Home Loan 1", "type": "home_loan", "principal": 400000, "rule": 4, "number_of_months": 60, "balance": 120000},
+      {"name": "Salary job", "type": "salary", "principal": 0, "rule": 0, "number_of_months": 60, "balance": 5000}
+    ],
+    "note": "1) During the last visit, Bob said that he wanted to buy one more truck. 2) Potentially need a business off-set account",
+    "isFavourite": true,
+    "email": "bob@bobco.com.au"
+  },
+
+  {"name": "Jack Smith", "gender": "M", "dob": "02/9/1970", "address": "50 Elizabeth Street, Melbourne, VIC 3000", "home_tel": "(03) 9312 7555", "work_tel": "93122522", "mob_num": "0402511717", "business_name": "JackSmith Association", "location": {"lon":144.96297145195,"lat":-37.8128813414695}, "last_visited_days": 7,
+    "finance": [
+      {"name": "Car Loan 1", "type": "car_loan", "principal": 60000, "rule": 5, "number_of_months": 24, "balance": 5000},
+      {"name": "Master Card 1", "type": "credit_card", "principal": 30000, "rule": 15, "number_of_months": 36, "balance": 7000},
+      {"name": "Saving Account 1", "type": "saving_account", "principal": 0, "rule": 2, "number_of_months": 60, "balance": 200000},
+      {"name": "Salary job", "type": "salary", "principal": 0, "rule": 0, "number_of_months": 60, "balance": 3500}
+    ],
+    "note": "1) The customer called saying that he wanted to buy one more car for his business.",
+    "isFavourite": true,
+    "email": "jack@jacksmith.com.au"
+  },
+
+  {"name": "Sally Smith", "gender": "F", "dob": "04/8/1970", "address": "50 Elizabeth Street, Melbourne, VIC 3000", "home_tel": "(03) 9312 7555", "work_tel": "93122522", "mob_num": "0402511717", "business_name": "JackSmith Association", "location": {"lon":144.96297145195,"lat":-37.8128813414695}, "last_visited_days": 7,
+    "finance": [
+      {"name": "Car Loan 1", "type": "car_loan", "principal": 60000, "rule": 5, "number_of_months": 24, "balance": 5000},
+      {"name": "Master Card 1", "type": "credit_card", "principal": 30000, "rule": 15, "number_of_months": 36, "balance": 7000},
+      {"name": "Saving Account 1", "type": "saving_account", "principal": 0, "rule": 2, "number_of_months": 60, "balance": 200000},
+      {"name": "Salary job", "type": "salary", "principal": 0, "rule": 0, "number_of_months": 60, "balance": 3500}
+    ],
+    "note": "1) The customer called saying that he wanted to buy one more car for his business.",
+    "isFavourite": true,
+    "email": "sally@sallysmith.com.au"
+  },
+
+  {"name": "Paul Ablett", "gender": "M", "dob": "02/9/1970", "address": "50 Elizabeth Street, Melbourne, VIC 3000", "home_tel": "(03) 9312 7555", "work_tel": "93122522", "mob_num": "0402511717", "business_name": "JackSmith Association", "location": {"lon":144.96297145195,"lat":-37.8128813414695}, "last_visited_days": 7,
+    "finance": [
+      {"name": "Car Loan 1", "type": "car_loan", "principal": 60000, "rule": 5, "number_of_months": 24, "balance": 5000},
+      {"name": "Master Card 1", "type": "credit_card", "principal": 30000, "rule": 15, "number_of_months": 36, "balance": 7000},
+      {"name": "Saving Account 1", "type": "saving_account", "principal": 0, "rule": 2, "number_of_months": 60, "balance": 200000},
+      {"name": "Salary job", "type": "salary", "principal": 0, "rule": 0, "number_of_months": 60, "balance": 3500}
+    ],
+    "note": "1) The customer called saying that he wanted to buy one more car for his business.",
+    "isFavourite": true,
+    "email": "paul@abbs.com.au"
+  },
+
+  {"name": "Hillary Swank", "gender": "F", "dob": "11/11/1983", "address": "75 Little Collins Street, Melbourne, VIC 3000", "home_tel": "93138995", "work_tel": "93222091", "mob_num": "0404598797", "business_name": "Jill and Associates", "location": {"lon":144.96427145195,"lat":-37.8149113414696}, "last_visited_days": 3,
+    "finance": [
+      {"name": "Car Loan 1", "type": "car_loan", "principal": 70000, "rule": 5, "number_of_months": 24, "balance": 10000},
+      {"name": "Master Card 1", "type": "credit_card", "principal": 40000, "rule": 15, "number_of_months": 12, "balance": 9000},
+      {"name": "Saving Account 1", "type": "saving_account", "principal": 0, "rule": 2, "number_of_months": 60, "balance": 150000},
+      {"name": "Salary job", "type": "salary", "principal": 0, "rule": 0, "number_of_months": 60, "balance": 6000}
+    ],
+    "note": "1) The customer said last time that he considered changing to the another type of business loan",
+    "isFavourite": false,
+    "email": "hills@associates.com.au"
+  },
+
+  {"name": "Bob Jane", "gender": "M", "dob": "12/12/1963", "address": "75 Little Collins Street, Melbourne, VIC 3000", "home_tel": "93138995", "work_tel": "93222091", "mob_num": "0404598797", "business_name": "Jill and Associates", "location": {"lon":144.96427145195,"lat":-37.8149113414696}, "last_visited_days": 3,
+    "finance": [
+      {"name": "Car Loan 1", "type": "car_loan", "principal": 70000, "rule": 5, "number_of_months": 24, "balance": 10000},
+      {"name": "Master Card 1", "type": "credit_card", "principal": 40000, "rule": 15, "number_of_months": 12, "balance": 9000},
+      {"name": "Saving Account 1", "type": "saving_account", "principal": 0, "rule": 2, "number_of_months": 60, "balance": 150000},
+      {"name": "Salary job", "type": "salary", "principal": 0, "rule": 0, "number_of_months": 60, "balance": 6000}
+    ],
+    "note": "1) The customer said last time that he considered changing to the another type of business loan",
+    "isFavourite": false,
+    "email": "bob@jane.com.au"
+  },
+
+  {"name": "Matt Flat", "gender": "M", "dob": "8/8/1982", "address": "75 Little Collins Street, Melbourne, VIC 3000", "home_tel": "93138995", "work_tel": "93222091", "mob_num": "0404598797", "business_name": "Jill and Associates", "location": {"lon":144.96427145195,"lat":-37.8149113414696}, "last_visited_days": 3,
+    "finance": [
+      {"name": "Car Loan 1", "type": "car_loan", "principal": 70000, "rule": 5, "number_of_months": 24, "balance": 10000},
+      {"name": "Master Card 1", "type": "credit_card", "principal": 40000, "rule": 15, "number_of_months": 12, "balance": 9000},
+      {"name": "Saving Account 1", "type": "saving_account", "principal": 0, "rule": 2, "number_of_months": 60, "balance": 150000},
+      {"name": "Salary job", "type": "salary", "principal": 0, "rule": 0, "number_of_months": 60, "balance": 6000}
+    ],
+    "note": "1) The customer said last time that he considered changing to the another type of business loan",
+    "isFavourite": false,
+    "email": "matt@flat.com.au"
+  },
+
+  {"name": "Pied Piper", "gender": "M", "dob": "2/24/1978", "address": "75 Little Collins Street, Melbourne, VIC 3000", "home_tel": "93138995", "work_tel": "93222091", "mob_num": "0404598797", "business_name": "Jill and Associates", "location": {"lon":144.96427145195,"lat":-37.8149113414696}, "last_visited_days": 3,
+    "finance": [
+      {"name": "Car Loan 1", "type": "car_loan", "principal": 70000, "rule": 5, "number_of_months": 24, "balance": 10000},
+      {"name": "Master Card 1", "type": "credit_card", "principal": 40000, "rule": 15, "number_of_months": 12, "balance": 9000},
+      {"name": "Saving Account 1", "type": "saving_account", "principal": 0, "rule": 2, "number_of_months": 60, "balance": 150000},
+      {"name": "Salary job", "type": "salary", "principal": 0, "rule": 0, "number_of_months": 60, "balance": 6000}
+    ],
+    "note": "1) The customer said last time that he considered changing to the another type of business loan",
+    "isFavourite": false,
+    "email": "fluty@honk.com.au"
+  },
+
+  {"name": "Jill Cruz", "gender": "M", "dob": "12/12/1963", "address": "75 Little Collins Street, Melbourne, VIC 3000", "home_tel": "93138995", "work_tel": "93222091", "mob_num": "0404598797", "business_name": "Jill and Associates", "location": {"lon":144.96427145195,"lat":-37.8149113414696}, "last_visited_days": 3,
+    "finance": [
+      {"name": "Car Loan 1", "type": "car_loan", "principal": 70000, "rule": 5, "number_of_months": 24, "balance": 10000},
+      {"name": "Master Card 1", "type": "credit_card", "principal": 40000, "rule": 15, "number_of_months": 12, "balance": 9000},
+      {"name": "Saving Account 1", "type": "saving_account", "principal": 0, "rule": 2, "number_of_months": 60, "balance": 150000},
+      {"name": "Salary job", "type": "salary", "principal": 0, "rule": 0, "number_of_months": 60, "balance": 6000}
+    ],
+    "note": "1) The customer said last time that he considered changing to the another type of business loan",
+    "isFavourite": false,
+    "email": "jill@associates.com.au"
+  },
+
+  {"name": "Jill Cruz", "gender": "M", "dob": "12/12/1963", "address": "75 Little Collins Street, Melbourne, VIC 3000", "home_tel": "93138995", "work_tel": "93222091", "mob_num": "0404598797", "business_name": "Jill and Associates", "location": {"lon":144.96427145195,"lat":-37.8149113414696}, "last_visited_days": 3,
+    "finance": [
+      {"name": "Car Loan 1", "type": "car_loan", "principal": 70000, "rule": 5, "number_of_months": 24, "balance": 10000},
+      {"name": "Master Card 1", "type": "credit_card", "principal": 40000, "rule": 15, "number_of_months": 12, "balance": 9000},
+      {"name": "Saving Account 1", "type": "saving_account", "principal": 0, "rule": 2, "number_of_months": 60, "balance": 150000},
+      {"name": "Salary job", "type": "salary", "principal": 0, "rule": 0, "number_of_months": 60, "balance": 6000}
+    ],
+    "note": "1) The customer said last time that he considered changing to the another type of business loan",
+    "isFavourite": false,
+    "email": "jill@associates.com.au"
+  },
+
+  {"name": "Jan Rice", "gender": "M", "dob": "25/09/1976", "address": "125 Flinders Street, Melbourne, VIC 3000", "home_tel": "93558569", "work_tel": "93152224", "mob_num": "0412545726", "business_name": "Jan Corp", "location": {"lon":144.96437145195,"lat":-37.8187613414697}, "last_visited_days": 1,
+    "finance": [
+      {"name": "Car Loan 1", "type": "car_loan", "principal": 25000, "rule": 5, "number_of_months": 36, "balance": 14000},
+      {"name": "Master Card 1", "type": "credit_card", "principal": 45000, "rule": 15, "number_of_months": 24, "balance": 35000},
+      {"name": "Saving Account 1", "type": "saving_account", "principal": 0, "rule": 2, "number_of_months": 60, "balance": 105000},
+      {"name": "Salary job", "type": "salary", "principal": 0, "rule": 0, "number_of_months": 60, "balance": 4500}
+    ],
+    "note": "1) The customer called and express his interest in having a loan to by a new car.",
+    "isFavourite": false,
+    "email": "jan@corp.com.au"
+  },
+
+  {"name": "Ann Ngo", "gender": "M", "dob": "26/06/1980", "address": "132 Mill Place, Melbourne, VIC 3005", "home_tel": "93178255", "work_tel": "93155811", "mob_num": "0403545321", "business_name": "Ann Inc", "location": {"lon":144.96417145195,"lat":-37.8178913414698}, "last_visited_days": 15,
+    "finance": [
+      {"name": "Car Loan 1", "type": "car_loan", "principal": 55000, "rule": 5, "number_of_months": 12, "balance": 40000},
+      {"name": "Master Card 1", "type": "credit_card", "principal": 20000, "rule": 15, "number_of_months": 24, "balance": 22000},
+      {"name": "Saving Account 1", "type": "saving_account", "principal": 0, "rule": 2, "number_of_months": 60, "balance": 200000},
+      {"name": "Insurance Contract 1", "type": "insurance_contract", "principal": 0, "rule": 0, "number_of_months": 0, "balance": 0},
+      {"name": "Salary job", "type": "salary", "principal": 0, "rule": 0, "number_of_months": 60, "balance": 4000}
+    ],
+    "note": "1) The customer suggested that he is interested in buy in a new business car.",
+    "isFavourite": false,
+    "email": "ann@anninc.com.au"
+  }
+]

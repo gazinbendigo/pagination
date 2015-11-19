@@ -1,0 +1,10 @@
+<template name="baseLayout">
+    <div id="wrapper">
+        {{> header}}
+        <div id="main">
+            {{> yield}}
+        </div>
+    </div>
+    <div class="push"></div>
+    {{> footer}}
+</template>

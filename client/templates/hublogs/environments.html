@@ -1,0 +1,11 @@
+<template name="environments">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12, col-lg-12"><h4>Environments</h4>
+                {{#each env}}
+                    <p>Environment {{name}} - {{description}}</p>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</template>
