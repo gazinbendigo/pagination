@@ -6,6 +6,8 @@
 Template.environments.helpers({
     env: function()
     {
+        Environments.loadFromAPI();
+        console.log('env');
         return Environments.find().fetch();
     }
 });
