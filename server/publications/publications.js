@@ -12,6 +12,7 @@ Meteor.publish('applications', function() {
 
 Meteor.publish('environments', function() {
     return Environments.find();
+    return this.ready();
 })
 
 //Meteor.publish('hubLogs', function(){

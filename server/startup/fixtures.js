@@ -84,28 +84,10 @@ if(Applications.find().count() === 0)
 }
 
 
-//if(Environments.find().count() === 0)
-//{
-//    Environments.insert({
-//        name: 'HUBA1',
-//        decription: 'Development1'
-//    });
-//
-//    Environments.insert({
-//        name: 'HUBA2',
-//        decription: 'Development2'
-//    });
-//
-//    Environments.insert({
-//        name: 'HUBB1',
-//        decription: 'Test1'
-//    });
-//
-//    Environments.insert({
-//        name: 'HUBB2',
-//        decription: 'Test2'
-//    });
-//}
+if(Environments.find().count() === 0 && !Environments.loading)
+{
+    Environments.loadFromAPI();
+}
 
 if(Meteor.isServer && HublogsSlogans.find().count() === 0)
 {
