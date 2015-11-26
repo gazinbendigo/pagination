@@ -1,0 +1,23 @@
+/**
+ * Created by adm9360 on 18/11/2015.
+ */
+
+
+<<<<<<< HEAD
+Template.environments.onCreated(function(){
+    Meteor.subscribe('environments');
+});
+
+Template.environments.helpers({
+    env: function()
+    {
+=======
+Template.environments.helpers({
+    env: function()
+    {
+        Environments.loadFromAPI();
+        console.log('env');
+>>>>>>> 8d8d8ee17bdea140be84cdbcd2fba54cc80c8d87
+        return Environments.find().fetch();
+    }
+});

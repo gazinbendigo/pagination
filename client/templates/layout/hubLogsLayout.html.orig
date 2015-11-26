@@ -1,0 +1,37 @@
+<template name="hubLogsLayout">
+    <div id="wrapper">
+<<<<<<< HEAD
+        {{> header}}
+        {{> slogans}}
+        <form action="" method="get">
+            {{> environments}}
+            <div class="container">
+                <input type="button" value="Clear Filter">
+                <input type="button" value="Search">
+            </div>
+            {{> hublogsFilterPanel}}
+
+        </form>
+        {{> yield}}
+=======
+    {{> header}}
+    {{> slogans}}
+    {{> environments}}
+    {{> hublogsFilterPanel}}
+    {{> yield}}
+>>>>>>> 8d8d8ee17bdea140be84cdbcd2fba54cc80c8d87
+    </div>
+    <div class="push"></div>
+    {{> footer}}
+</template>
+
+<template name="hubLogs">
+
+    {{> pagesNav}}
+    <div class="hublogsResultsContainer">
+    {{> pages}}
+    </div>
+    <div class="bottom-paginator-container">
+        {{> pagesNav}}
+    </div>
+</template>

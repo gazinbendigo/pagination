@@ -14,10 +14,16 @@ tracker                 # Meteor's client-side reactive programming library
 
 standard-minifiers      # JS/CSS minifiers run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
+<<<<<<< HEAD
+
+#autopublish             # Publish all data to the clients (for prototyping)
+insecure                # Allow all DB writes from clients (for prototyping) - REMOVE FOR PRODUCTION
+=======
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 #autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
+>>>>>>> 8d8d8ee17bdea140be84cdbcd2fba54cc80c8d87
 alethes:pages
 iron:router
 browser-policy
@@ -31,4 +37,7 @@ accounts-password
 less
 nemo64:bootstrap
 http
+<<<<<<< HEAD
 ecmascript
+=======
+>>>>>>> 8d8d8ee17bdea140be84cdbcd2fba54cc80c8d87

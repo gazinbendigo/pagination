@@ -1,0 +1,19 @@
+<template name="environments">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12, col-lg-12"><h4>Environments</h4>
+<<<<<<< HEAD
+                <select>
+                {{#each env}}
+                    <option value="{{name}}">{{description}}</option>
+                {{/each}}
+                </select>
+=======
+                {{#each env}}
+                    <p>Environment {{name}} - {{description}}</p>
+                {{/each}}
+>>>>>>> 8d8d8ee17bdea140be84cdbcd2fba54cc80c8d87
+            </div>
+        </div>
+    </div>
+</template>

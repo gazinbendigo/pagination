@@ -7,6 +7,10 @@ Items = new Mongo.Collection("items");
 Applications = new Mongo.Collection('applications');
 
 Environments = new Meteor.Collection('environments');
+<<<<<<< HEAD
+    //Meteor.call("getEnvironments", function(error, results){
+    //console.log(results.content)
+//});
 
 Environments.loading = true;
 
@@ -40,3 +44,32 @@ Environments.loading = false;
 
 HublogsSlogans = new Mongo.Collection('hublogsSlogans');
 
+=======
+
+Environments.loading = false;
+
+Environments.loadFromAPI = function(){
+    Environments.loading = true;
+    try
+    {
+        var env = HTTP.get("http://localhost:10010/ema/env");
+        //if(env.statusCode() == 200)
+        if(env != null)
+        {
+            _.each(env.data, function(env){Environments.insert(env);})
+        }
+        else
+        {
+            throw new Meteor.Error(500, 'Something went wrong');
+        }
+    }
+    catch(error)
+    {
+        console.log(error.response.data.code)
+    }
+
+    Environments.loading = false;
+}
+
+HublogsSlogans = new Mongo.Collection('hublogsSlogans')
+>>>>>>> 8d8d8ee17bdea140be84cdbcd2fba54cc80c8d87
