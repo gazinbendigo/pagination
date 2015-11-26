@@ -1,10 +1,17 @@
 <template name="hubLogsLayout">
     <div id="wrapper">
-    {{> header}}
-    {{> slogans}}
-    {{> environments}}
-    {{> hublogsFilterPanel}}
-    {{> yield}}
+        {{> header}}
+        {{> slogans}}
+        <form action="" method="get">
+            {{> environments}}
+            <div class="container">
+                <input type="button" value="Clear Filter">
+                <input type="button" value="Search">
+            </div>
+            {{> hublogsFilterPanel}}
+
+        </form>
+        {{> yield}}
     </div>
     <div class="push"></div>
     {{> footer}}

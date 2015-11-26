@@ -3,6 +3,10 @@
  */
 
 
+Template.environments.onCreated(function(){
+    Meteor.subscribe('environments');
+});
+
 Template.environments.helpers({
     env: function()
     {

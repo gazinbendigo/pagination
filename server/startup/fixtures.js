@@ -84,12 +84,16 @@ if(Applications.find().count() === 0)
 }
 
 
-if(Environments.find().count() === 0 && !Environments.loading)
+if(Environments.find().count() === 0)
 {
-    Environments.loadFromAPI();
+    //Environments.loadFromAPI();
+    var env = EmaGatewayAPI.getEnvironments();
+    _.each(env, function(environment){
+        Environments.insert(environment);
+    });
 }
 
-if(Meteor.isServer && HublogsSlogans.find().count() === 0)
+if(HublogsSlogans.find().count() === 0)
 {
     HublogsSlogans.insert({
         id: 1,
@@ -106,25 +110,8 @@ if(Meteor.isServer && HublogsSlogans.find().count() === 0)
     });
 }
 
-//if(Meteor.isServer && HubLogs.find().count() === 0)
-//{
-//    HubLogs._ensureIndex({
-//        requestId: 1
-//    });
-//
-//    var count = 1000;
-//    for(var index = 0; index < count; index++)
-//    {
-//        HubLogs.insert({
-//            requestId: (index + 1),
-//            serviceID: (index + 1),
-//            message: 'abc' + (index + 1),
-//            logMessage: 'xyz'  + (index + 1)
-//        });
-//    }
-//}
 
-if(Meteor.isServer && Items.find().count() === 0)
+if(Items.find().count() === 0)
 {
     // adds an index to make sorting by the 'id' property quicker
     Items._ensureIndex({

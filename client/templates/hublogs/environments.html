@@ -2,9 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12, col-lg-12"><h4>Environments</h4>
+                <select>
                 {{#each env}}
-                    <p>Environment {{name}} - {{description}}</p>
+                    <option value="{{name}}">{{description}}</option>
                 {{/each}}
+                </select>
             </div>
         </div>
     </div>

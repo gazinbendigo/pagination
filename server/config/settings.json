@@ -3,10 +3,10 @@
     "authHeaders": {
       "x-apim-org-id": "FC12C81F0405E51194BE000C2976E90B"
     },
-    "baseUrl": "http://localhost:52213/api/"
+    "baseUrl": "http://localhost:10010"
   },
   "emaApplication": {
-    "baseUrl": "http://localhost:5100/"
+    "baseUrl": "http://localhost:10010/"
   },
   "adfsDevUser": {
     "samaccountname": "adm2528",
@@ -14,6 +14,6 @@
     "email": "pledge.admin@bendigoadelaide.com.au"
   },
   "public": {
-    "communityOnlineBaseUrl": "https://bendigo-communities.clients.squiz.net/"
+    "communityOnlineBaseUrl": ""
   }
 }
